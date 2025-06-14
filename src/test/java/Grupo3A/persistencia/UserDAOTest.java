@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*; // Importación estática de m
 
 class UserDAOTest {
     private UserDAO userDAO; // Instancia de la clase UserDAO que se va a probar.
+
     @BeforeEach
     void setUp(){
         // Método que se ejecuta antes de cada método de prueba (@Test).
